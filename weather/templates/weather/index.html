@@ -1,0 +1,106 @@
+{% extends "weather/layout.html" %}
+{% load static %}
+
+{% block body %}
+    
+<body>
+    <section id="index">
+        <div class="container-fluid">
+            <div class="row text-center weather__header justify-content-center">
+                <div class="col-4">
+                    <form class="weather__search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search for a city..." class="weather__searchform">
+                    </form>
+                </div>
+                <div class="col-2">
+                    <div class="weather__units">
+                        <span id="celsius" class="weather_unit_celsius">&#176C</span>
+                        <span id="fahrenheit" class="weather_unit_farenheit">&#176F</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col weather__body">
+                    <div class="d-flex flex-row mb-3 justify-content-center">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h1 class="weather__city"></h1>
+                    </div>
+                    <div class="weather__datetime"></div>
+                    <div class="weather__forecast"></div>
+                    <div class="d-flex flex-row mb-3 justify-content-center">
+                        <div class="p-2 weather__icon"></div>
+                        <div class="p-2 weather__temperature"></div>
+                        <span class="units-color units" id="units">C</span>
+                    </div>
+                    <div class="d-flex flex-row mb-3 justify-content-center minmax">
+                        <p style="color:#5ab1e6">Min:</p> 
+                        <div class="weather__min">
+                        </div>
+                        <span style="font-size:20px; margin-top: 10px;"class="units-color" id="min_sign">C</span>
+                        <p style="color:#e95656; margin-left:30px">Max:</p> 
+                        <div  class="weather__max">
+                        </div>
+                        <span style="font-size:20px; margin-top: 10px;"class="units-color" id="max_sign">C</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="info">
+                {% if user.is_authenticated %}
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card text-bg-dark">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Feels Like</h5>
+                            <i class="fa-solid fa-temperature-half"></i>
+                            <p class="card-text text-center weather__realfeel"></p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-4">
+                    <div class="card text-bg-dark">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">Humidity</h5>
+                        <i class="fa-solid fa-droplet"></i>
+                        <p class="card-text text-center weather__humidity"></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="card text-bg-dark">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Wind</h5>
+                                <i class="fa-solid fa-wind"></i>
+                                <p class="card-text text-center weather__wind"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">pressure</h5>
+                                <i class="fa-solid fa-gauge-high"></i>
+                                <p class="card-text text-center weather__pressure"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+
+            
+
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/a692e1c39f.js" crossorigin="anonymous"></script>
+</body>
+
+
+
+<script src="{% static 'weather/script.js' %}"></script>
+
+{% endblock %}
