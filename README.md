@@ -4,6 +4,11 @@ Weather_Now is a powerful web application that delivers accurate and precise wea
 
 ### Distinctiveness and Complexity:
 
+Weather_Now is a application that look simple but actually it's a really complex application, the idea was to make application front-end look simple, minimalist and easy to read application for the user. Instead, there is a lot going on in the back-end, like the third-party API to get real time the weather information instantly using the API Fecth and Javascript. the Django framework was use to create the application and the database, 
+database made using django models and used to store the user information, the application also use the Bootstrap framework to make the application responsive and easy to use in any device.
+
+
+
 What’s contained in each file you created.
 
 How to run your application.
