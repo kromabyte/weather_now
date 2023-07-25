@@ -1,10 +1,10 @@
-# weather_now
+# weather_now 🌦️
 
 Weather_Now is a powerful web application that delivers accurate and precise weather information from anywhere around the world. With its simplicity and user-friendly interface, Weather_Now allows you to access real-time weather forecasts, atmospheric and sky conditions for any city in the world instantly, courtesy of the trusted OpenWeather API. The application is built using the Django framework on the back-end and complemented by Javascript, Bootstrap on the front-end. 
 
 ### Distinctiveness and Complexity:
 
-The app looks simple, but it is actually a very complex app, and it is different from the other apps because it uses real-time API calls to get the most updated weather information and it is displayed to the user instantly, showing different types of data that the API provides, such as temperature, humidity, the weather icon that changes depending on the sky conditions, whether it is cloudy or clear for example. The idea was to make the app look minimal and easy for the user to read, but at the same time have a really complex front-end and back-end that would allow the user to interact with the app more easily and dynamically, here are some of them:
+The app looks simple, but it is actually a very complex app, and it is different from the other apps because it uses real-time API calls to get the most updated weather information and it is displayed to the user instantly, showing different types of data that the API provides, such as temperature, humidity, the weather icon that changes depending on the sky conditions, whether it is cloudy or clear for example. The application is having a real and authentic communication with the third-party weather information API, unlike previous apps where API calls were not to an real API.The idea was to make the app look minimalistic and easy for the user to read, but at the same time have a really complex front-end and back-end that would allow the user to interact with the app more easily and dynamically, here are some of them:
 
 **Key Features:**
 
@@ -16,6 +16,6 @@ The app looks simple, but it is actually a very complex app, and it is different
 
 4. **Responsive:** The application use the Bootstrap framework to make the application responsive and easy to use in any device, its responsive design allows you to enjoy the same level of functionality and accuracy whether you're on a desktop, tablet, or smartphone.
 
-What’s contained in each file you created.
+### What’s contained in each file you created.
 
-How to run your application.
+### How to run your application.
