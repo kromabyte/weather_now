@@ -2,7 +2,8 @@
 
 Weather_Now is a powerful web application that delivers accurate and precise weather information from anywhere around the world. With its simplicity and user-friendly interface, Weather_Now allows you to access real-time weather forecasts, atmospheric and sky conditions for any city in the world instantly, courtesy of the trusted OpenWeather API. The application is built using the Django framework on the back-end and complemented by Javascript, Bootstrap on the front-end.
 
-![screenshot image ](https://github.com/kromabyte/weather_now/blob/master/static/weather/images/screenshot.png)
+![screenshot image ](https://github.com/kromabyte/weather_now/blob/master/weather/static/weather/images/screenshot.png)
+
 
 ### Distinctiveness and Complexity.
 
