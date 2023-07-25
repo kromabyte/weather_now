@@ -22,4 +22,4 @@ The app looks simple, but it is actually a very complex app, and it is different
 
 To run the application you need to have Python installed in your computer, you can download it from the official Python website and install it in your computer, After that you have to create a new folder and depending of your code editor you have to open the folder in your code editor, next you have to open the terminal in your code editor and clone the remote repository using the command:
     
-    ```git clone https://github.com/kromabyte/weather_now.git```
+    git clone https://github.com/kromabyte/weather_now.git
