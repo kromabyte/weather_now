@@ -18,9 +18,9 @@ The app looks simple, but it is actually a very complex app, and it is different
 
 ### What’s contained in each file you created.
 
-.Weather_Now/ : This folder contains the django files that makes the application work, heres is where the django project was created.
+ - `./Weather_Now/` - This folder contains the django files that makes the application work, heres is where the django project was created.
 
-2. Weather_Now/README.md : This file contains the description of the application and how to run it.
+- `./Weather_Now/README.md` - This file contains the description of the application and how to run it.
 
 . Weather_Now/manage.py : This file contains the python code used to run the application.
 
