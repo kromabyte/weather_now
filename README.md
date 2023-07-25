@@ -20,27 +20,27 @@ The app looks simple, but it is actually a very complex app, and it is different
 
  - `./Weather_Now/`: - This folder contains the django files that makes the application work, heres is where the django project was created.
 
- -  `./Weather_Now/README.md` - This file contains the description of the application and how to run it.
+    -  `./Weather_Now/README.md` - This file contains the description of the application and how to run it.
 
- - `./Weather_Now/manage.py` - This file contains the python code used to run the application.
+    - `./Weather_Now/manage.py` - This file contains the python code used to run the application.
 
- - `./Weather_Now/db.sqlite3` : This file contains the database of the application.
+    - `./Weather_Now/db.sqlite3` : This file contains the database of the application.
 
- - `./Weather_Now/Weather_ Now` : This folder was created by default by django and contains the settings of the entire application, here i have modified the settings.py file to install the weather app and urls.py file to let the weather app urls to be used in the application.
+    - `./Weather_Now/Weather_ Now` : This folder was created by default by django and contains the settings of the entire application, here i have modified the settings.py file to install the weather app and urls.py file to let the weather app urls to be used in the application.
 
  - `./Weather_Now/weather` : This folder contains the files of the weather app, here is where the weather application was created.
 
- - `./Weather_Now/weather/admin.py` : This file contains the python code used to register the models in the admin site.
+    - `./Weather_Now/weather/admin.py` : This file contains the python code used to register the models in the admin site.
 
- - `./Weather_Now/weather/apps.py` : This file contains the python code used to configure the weather app.
+    - `./Weather_Now/weather/apps.py` : This file contains the python code used to configure the weather app.
 
- - `./Weather_Now/weather/models.py` : This file contains the python code used to create the models of the application.
+    - `./Weather_Now/weather/models.py` : This file contains the python code used to create the models of the application.
 
- - `./Weather_Now/weather/tests.py` : This file contains the python code used to test the application.
+    - `./Weather_Now/weather/tests.py` : This file contains the python code used to test the application.
 
- - `./Weather_Now/weather/urls.py` : This file contains the python code used to create the urls of the application.
+    - `./Weather_Now/weather/urls.py` : This file contains the python code used to create the urls of the application.
 
- - `./Weather_Now/weather/views.py` : This file contains the python code used to create the views of the application.
+    - `./Weather_Now/weather/views.py` : This file contains the python code used to create the views of the application.
 
 
 
