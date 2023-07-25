@@ -14,9 +14,35 @@ The app looks simple, but it is actually a very complex app, and it is different
 
 3. **User Registration:** In the back-end, the Django framework was use to create the application and the database, database was created using Python and django models to be used to store the credentials and information of the user account.
 
-4. **Responsive desing:** The application use the Bootstrap framework to make the application responsive and easy to use in any device, its responsive design allows you to enjoy the same level of functionality and accuracy whether you're on a desktop, tablet, or smartphone.
+4. **Responsive design:** The application use the Bootstrap framework to make the application responsive and easy to use in any device, its responsive design allows you to enjoy the same level of functionality and accuracy whether you're on a desktop, tablet, or smartphone.
 
 ### What’s contained in each file you created.
+
+- Weather_Now/ : This folder contains the django files that makes the application work, heres is where the django project was created.
+
+- Weather_Now/README.md : This file contains the description of the application and how to run it.
+
+- Weather_Now/manage.py : This file contains the python code used to run the application.
+
+- Weather_Now/db.sqlite3 : This file contains the database of the application.
+
+- Weather_Now/Weather_ Now : This folder was created by default by django and contains the settings of the entire application, here i have modified the settings.py file to install the weather app and urls.py file to let the weather app urls to be used in the application.
+
+- Weather_Now/weather : This folder contains the files of the weather app, here is where the weather application was created.
+
+- Weather_Now/weather/admin.py : This file contains the python code used to register the models in the admin site.
+
+- Weather_Now/weather/apps.py : This file contains the python code used to configure the weather app.
+
+- Weather_Now/weather/models.py : This file contains the python code used to create the models of the application.
+
+- Weather_Now/weather/tests.py : This file contains the python code used to test the application.
+
+- Weather_Now/weather/urls.py : This file contains the python code used to create the urls of the application.
+
+- Weather_Now/weather/views.py : This file contains the python code used to create the views of the application.
+
+
 
 ### How to run your application.
 
@@ -26,7 +52,7 @@ To run the application you need to have Python installed in your computer, you c
 
 Next in the same folder you have to install django using the command:
 
-    pip install django
+    pip3 install django
 
 after that you have to set the environment to run the application using the command:
 
@@ -47,3 +73,7 @@ next you have to migrate the database using the command:
 and finally you have to run the application using the command:
 
     python manage.py runserver
+
+### aditional information.
+
+If the API keys don´t works you may need to create a account at openweathermap.org and get your own API keys and replace them in the code.
