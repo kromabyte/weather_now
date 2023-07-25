@@ -12,10 +12,14 @@ The app looks simple, but it is actually a very complex app, and it is different
 
 2. **Change Mesure Units:** A feature that I find subtle but very important, is the color change that occurs when clicking on the temperature unit sign in the top of the page to indicate which mesure unit is being used, Celsius or Fahrenheit, and also change the temperature mesure unit sign in the weather information section without refresh the page, this characteristic was made using some Javascript logic staments like "if" and "else" to modify the behavior of some element depending on certain logic, and Javascript elements like the "eventListener" for the click event, the "getElementById" to get the element by id and change the color of the element and the "innerHtml" to change the text inside the element, in this case change the mesure units from Celsius (C) to Fahrenheit(F) or vice versa in the weather information section.
 
-3. **Register:** In the back-end, the Django framework was use to create the application and the database, database was created using Python and django models to be used to store the credentials and information of the user account.
+3. **User Registration:** In the back-end, the Django framework was use to create the application and the database, database was created using Python and django models to be used to store the credentials and information of the user account.
 
-4. **Responsive:** The application use the Bootstrap framework to make the application responsive and easy to use in any device, its responsive design allows you to enjoy the same level of functionality and accuracy whether you're on a desktop, tablet, or smartphone.
+4. **Responsive desing:** The application use the Bootstrap framework to make the application responsive and easy to use in any device, its responsive design allows you to enjoy the same level of functionality and accuracy whether you're on a desktop, tablet, or smartphone.
 
 ### What’s contained in each file you created.
 
 ### How to run your application.
+
+To run the application you need to have Python installed in your computer, you can download it from the official Python website and install it in your computer, After that you have to create a new folder and depending of your code editor you have to open the folder in your code editor, next you have to open the terminal in your code editor and clone the remote repository using the command:
+    
+    ```git clone https://github.com/kromabyte/weather_now.git```
