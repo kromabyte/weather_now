@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,15 +12,21 @@
     font-family: 'Poppins', sans-serif;
 }
 
-#index {
+.sections {
+    min-height: 67%;
     background: #171717;
     color: #fff;
-    padding-bottom: 80px;
+    padding-bottom: 90px;
 }
 
 .navbar {
     text-decoration: none;
     background: #171717;
+}
+
+.brand {
+    color: orange;
+    font-size: 35px;
 }
 
 .units-color {
@@ -51,6 +62,26 @@ input {
 
 input::placeholder {
     color: #fff;
+}
+
+.input {
+    border: none;
+    background: #1e1e1e;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.input::placeholder {
+    color: #fff;
+}
+
+.input:focus {
+    border: none;
+    background: #1e1e1e;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
 }
 
 .weather__search {
@@ -127,13 +158,17 @@ input::placeholder {
 }
 
 .footer {
-    color: #2f2f2f;
+    color: #535151;
     height: 200px;
     background: #191919;
 }
 
+
 .margin-sm {
     margin-top: 30px;
+}
+.margin-ml {
+    margin-top: 80px;
 }
 
 @media(max-width: 936px){
@@ -147,12 +182,5 @@ input::placeholder {
 
     .weather__units {
         margin-top: 1rem;
-    }
-}
-
-
-@media(max-width: 400px){
-    .weather__info {
-        grid-template-columns: none;
     }
 }
